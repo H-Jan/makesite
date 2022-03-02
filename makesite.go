@@ -15,7 +15,7 @@ type Page struct {
 
 func main() {
 
-	fileParse := flag.String("file", "", "The file to read in")
+	fileParse := flag.String("file", "latest-post.txt", "The file to read in")
 	flag.Parse()
 
 	//Have file as string
